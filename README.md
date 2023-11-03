@@ -7,6 +7,12 @@
    a. `npm install @capacitor/camera @capacitor/preferences @capacitor/filesystem`  
    b. `npm install @ionic/pwa-elements`
 3. Install local-notifications: `npm install @capacitor/local-notifications`
+4. Install capacitor-voice-recorder: `npm install capacitor-voice-recorder`
+
+## Recording Special Setup
+
+- Add to Android Manifest: <br> `<uses-permission android:name="android.permission.RECORD_AUDIO" />` <br>
+`<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />`
 
 ## Deploying to iOS and Android
 
@@ -28,9 +34,3 @@
 
 `ionic serve`
 
-## Record
-
-Add to android manifest: <uses-permission android:name="android.permission.RECORD_AUDIO" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-use api: capacitor-voice-recorder
