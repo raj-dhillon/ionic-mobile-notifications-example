@@ -1,5 +1,9 @@
 # ionic-mobile-notifications-example
 
+## Installing Ionic
+
+`npm install -g @ionic/cli native-run cordova-res`
+
 ## Installing Dependencies and Creating the App
 
 1. Create the app: `ionic start photo-gallery tabs --type=react --capacitor`
